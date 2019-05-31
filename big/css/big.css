@@ -6,13 +6,13 @@
 }
 
 html,body {
-    background-color:#d2b88f;
+    background-color:lightskyblue;
 }
 
 div.wrapper,footer {
     width:90%;
     margin:auto;
-    background-color:#fff;
+    background-color:white;
     overflow:auto;
 }
 
@@ -67,6 +67,14 @@ div.embed-container.agenda-view {
     display:none;
 }
 
+.embed-container { 
+position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; 
+} 
+
+.embed-container iframe, .embed-container object, .embed-container embed { 
+position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+}
+
 /* END Global Embed Responsively Rules! */
 
 footer {
@@ -80,7 +88,7 @@ footer p {
 }
 
 footer a {
-    color:red;
+    color:darkblue;
     text-decoration: none;
 }
 
@@ -93,7 +101,7 @@ footer a:hover {
 /* Phat PHONE Rules! */
 @media all and (max-width:800px) {
     div.wrapper {
-        background-color:blue;
+        background-color:white;
     }
     
     /* Show Agenda View Calendar */
